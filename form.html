@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plato Libre</title>
+    <!--icono-->
+    <link rel=" shortcut icon" href="../Trabajo-Final/image/icono-1.PNG" type="image/x-icon">
+    <!--importando el css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--importando el CDN de fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACION-->
+
+
+    <header class="header">
+
+        <a href="index.html" class="logo"> <i class="fas fa-utensils"></i>Plato Libre </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">Sobre Nosotros</a>
+            <a href="#popular">Platos Populares</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Ordenar</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="social" class="fab fa-facebook-f"></div>
+            <div id="social" class="fab fa-instagram"></div>
+            <div id="social" class="fab fa-twitter"></div>
+        </div>
+        
+    </header>
+    <!-- FIN DE BARRA DE NAVEGACION -->
+
+
+    <!-- SECCION DE ORDENAR -->
+    <section class="order" id="order">
+
+        
+
+            <div class="heading">
+                <span>¿Queres cotizar tu catering con nosotros ?</span>
+                <h3>Llená el formulario y nos contactaremos con vos !!! </h3>
+            </div>
+
+            <div id="resultadoValidacion">
+            </div>
+
+            <form action="#"  method="post" name="registration" id="registration">
+    
+                <div class="flex">
+                    <div class="inputBox">
+                        <span id="lbnombre">Tu Nombre y Apellido</span>
+                        <input type="text" placeholder="nombre" id="nombre" name="nombre" value="">
+                    </div>
+                    <div class="inputBox">
+                        <span id="lbnumero">Tu Numero de Telefono</span>
+                        <input type="number" placeholder="Numero del cliente" id="numero_telefono" name="numero_telefono" value="">
+                        
+                    </div>
+                    <div class="inputBox">
+                        <span id="lbemail">Email</span>
+                        <input type="email" placeholder="Email del Cliente" id="email_cliente" name="email_cliente" value="">
+                        
+                    </div>
+                </div>
+        
+                <div class="flex">
+                    <div class="inputBox">
+                        <span id="lbpedido">Tu Pedido a Cotizar</span>
+                        <input type="text" placeholder="escribe el pedido que cotizas" id="pedido" name="pedido" value="">
+                    </div>
+                    <div class="inputBox">
+                        <span id="lbplato">Numero de  platos que necesitas </span>
+                        <input type="number" placeholder="Numero de platos a cotizar" id="numero_platos" name="numero_platos" value="">
+                    </div>
+                </div>
+        
+                <div class="flex">
+                    <div class="inputBox">
+                        <span id="lbdetalles_pedido">Mas Detalles sobre el  pedido</span>
+                        <input type="text" placeholder="Escribí aquí mas detalles sobre tu pedido y nos contactaremos con vos!" id="detalle_pedido" name="detalle_pedido" value="">
+                    </div>
+                    <div class="inputBox">
+                        <span id="lbhora">Elegí una hora en la que llevamos tu pedido </span>
+                        <input type="datetime-local" id="hora">
+                    </div>
+                </div>
+        
+                <div class="flex">
+                    <div class="inputBox" id="lbdireccion">
+                        <textarea placeholder="Direccion del  Domicilio" id="direccion" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Enviar Orden" id="guardar" class="btn">
+                <a href="javascript:new jsPDF()">Descargar OrderPDF</a>
+                <!-- <input type="submit" value="Ver PDF de la Orden" id="pdfExport" class="btn" > -->
+            </form>
+        
+        
+        
+
+
+        <div class="heading">
+            <span>ordenar ahora!</span>
+            <h3>Nuestro delivery es el mas rapido! </h3>
+        </div>
+    
+        <div class="icons-container">
+    
+            <div class="icons">
+                <img src="image/icon-1.png" alt="">
+                <h3> De 7:00am a 10:30pm</h3>
+            </div>
+    
+            <div class="icons">
+                <img src="image/icon-2.png" alt="">
+                <h3>+54 9 3804511902</h3>
+            </div>
+    
+            <div class="icons">
+                <img src="image/icon-3.png" alt="">
+                <h3>La Rioja, Argentina - 5300</h3>
+            </div>
+    
+        </div>
+
+       
+        
+    
+    </section>
+    
+    <!-- FIN DE SECCION ORDENAR -->
+
+    <!-- COMIENZO DE LA SECCION FOOTER -->
+    <section class="footer">
+ 
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Nuestro Menu</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Pizzas </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Hamburguesas</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Pollo</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Pasta</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Postres</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> y mucho mas!!!<a>
+            </div>
+    
+            <div class="box">
+                <h3>Volver a </h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> Sobre Nosotros</a>
+                <a href="#popular"> <i class="fas fa-arrow-right"></i> Platos Populares</a>
+                <a href="#menu"> <i class="fas fa-arrow-right"></i> Menu</a>
+                <a href="#order"> <i class="fas fa-arrow-right"></i> Ordenar</a>
+                <a href="#blogs"> <i class="fas fa-arrow-right"></i> Blogs</a>
+                <a href="https://633b166811b92d04d92315cc--incredible-malabi-90caa3.netlify.app/"> <i class="fas fa-arrow-right"></i> ¿Quien Hizo este Trabajo?</a>
+                
+            </div>
+            <div class="box">
+                <h3>horarios </h3>
+                <p>Lunes:7:00am a 10:00pm</p>
+                <p>Martes:7:00am a 10:00pm</p>
+                <p>Miercoles:7:00am a 10:00pm</p>
+                <p>Jueves:7:00am a 10:00pm</p>
+                <p>Viernes:7:00am a 10:00pm </p>
+                <p>Sabados:7:00am a 10:00pm </p>
+                <p>Domingos CERRADO 😔(por ahora)</p>
+
+            </div>
+    
+        </div>
+    
+        <div class="bottom">
+            <div class="credit">Claudia Alexandra Salgán Bettuzzi </div>
+        </div>
+    
+    </section>
+    
+    <!-- FIN DE LA SECCION FOOTER -->
+
+
+
+    <!-- ZONA DE SCRIPTS JS-->
+    <!-- importando el archivo  script de comportamiento del menu -->
+    <script src="./js/script.js"></script>
+    <!-- SCRIPT DEL FORMULARIO -->
+    <script src="js/formulario_jquery.js"></script>
+    <!-- AGREGANDO JEQUERY AL PROYECTO -->
+    <script src="js/jquery.min.js"></script>
+    <!-- AGREGANDO VALIDATE JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate-js/2.0.1/validate.min.js" integrity="sha512-8GLIg5ayTvD6F9ML/cSRMD19nHqaLPWxISikfc5hsMJyX7Pm+IIbHlhBDY2slGisYLBqiVNVll+71CYDD5RBqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- AGREGANDO JSPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
