@@ -45,3 +45,6 @@ WIREFRAME DEL SITIO: https://marvelapp.com/whiteboard/T7suGcOSVLXcNCv9eeLN
 4) Pruebas de Concepto de las Librerías
 5) Implementación de JS
 6) Pruebas de Integración
+
+![Captura](https://user-images.githubusercontent.com/68980933/199380455-147f0178-2731-4579-a7bb-c7dae901dc62.PNG)
+
