@@ -19,7 +19,7 @@ requisitos:
 ○ A modo Asistente (Wizard)
 ○ Validación de Campos
 ○ Generación de Resumen (No Editable)
-○ Exportación a PDF
+○ Exportación a PDF => UTILIZACION DE LA LIBRERIA HTML2PDF
 
 ● El sitio debe utilizar las siguientes Bibliotecas
 ○ Uso de Bibliotecas JS
@@ -27,7 +27,7 @@ requisitos:
 ■ Validate.JS
 
 ● El sitio debe contar con una Integración
-○ Consumo de API Externa a través de AJAX
+○ Consumo de API Externa a través de AJAX =>CONSUMO DE API  DE BROMAS : JOKES API => https://v2.jokeapi.dev/
 ○ Visualización de los Resultados Obtenidos
 
 
@@ -39,6 +39,7 @@ Tecnologías a utilizar
 
 Paso a paso sugerido
 1) Definir Wireframes y Bocetos del Sitio
+WIREFRAME DEL SITIO: https://marvelapp.com/whiteboard/T7suGcOSVLXcNCv9eeLN
 2) Generar Repositorio Git
 3) Generar las Maquetas
 4) Pruebas de Concepto de las Librerías
